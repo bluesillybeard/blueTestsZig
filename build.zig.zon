@@ -1,0 +1,20 @@
+.{
+    .name = .blueTestsZig,
+    .version = "0.0.0",
+    .fingerprint = 0x15a89d2f0ccb15ef, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.14.0",
+
+    .dependencies = .{
+        .dependency = .{
+            .url = "./dependency",
+            .hash = "dependency-0.0.0-WOaG65UEAACUiaIe_QA7cyLVXT8nN8Hbbh0mHbLBWSvP",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "dependency",
+    },
+}
